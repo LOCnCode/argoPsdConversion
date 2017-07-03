@@ -57,9 +57,9 @@ li {
 	color: $maingreen;
 }
 
-h2:hover {
+h3:hover {
 	cursor: pointer;
-  border-top: 2px solid #32CA65;
-  color: #32CA65;
+  border-top: 2px solid $maingreen;
+  color: $maingreen;
   padding-top: 16px;
 }

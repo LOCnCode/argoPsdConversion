@@ -2,6 +2,7 @@
 @import "partials/variables";
 @import "partials/header";
 @import "partials/nav";
+@import "partials/title";
 
 
 // font-family: 'Open Sans', sans-serif;
@@ -12,7 +13,7 @@
 	margin: 0 auto;
 }
 
-h1, h2 {
+h1, h3 {
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
@@ -25,7 +26,7 @@ h1 {
 	font-size: 30px;
 }
 
-h2 {
+h3 {
 	font-size: 22px;
 }
 

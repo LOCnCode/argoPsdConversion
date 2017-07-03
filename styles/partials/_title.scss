@@ -1,0 +1,25 @@
+.title-container {
+	width: 100%;
+	color: $maintext;
+	margin: 0 auto;
+	border-bottom: 1px solid #D3D3D3;
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-title {
+	// font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.title-description {
+	// font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	color: $maintext;
+}

@@ -143,6 +143,9 @@ header {
   background-repeat: no-repeat;
   position: relative; }
 
+a {
+  text-decoration: none; }
+
 .row {
   width: 100%;
   display: -webkit-box;
@@ -309,17 +312,51 @@ li {
   border-top: 2px solid #32CA65;
   color: #32CA65; }
 
-h2:hover {
+h3:hover {
   cursor: pointer;
   border-top: 2px solid #32CA65;
   color: #32CA65;
   padding-top: 16px; }
 
+.title-container {
+  width: 100%;
+  color: #333;
+  margin: 0 auto;
+  border-bottom: 1px solid #D3D3D3;
+  padding: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.title-title {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  text-transform: uppercase; }
+
+.title-description {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #333; }
+
 .wrapper {
   width: 1170px;
   margin: 0 auto; }
 
-h1, h2 {
+h1, h3 {
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -330,7 +367,7 @@ h1, h2 {
 h1 {
   font-size: 30px; }
 
-h2 {
+h3 {
   font-size: 22px; }
 
 p {
