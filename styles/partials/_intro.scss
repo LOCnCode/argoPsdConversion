@@ -1,0 +1,38 @@
+
+.intro-wrapper {
+	color: $maintext;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.intro-container {
+	width: 30%;
+	margin: 0;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	p {
+		text-align: center;
+	}
+}
+
+.intro-title {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	margin: 5px;
+}
+
+.fs1 {
+	color: $maingreen;
+}
