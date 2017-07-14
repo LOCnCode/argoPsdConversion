@@ -416,7 +416,6 @@ h4 {
 
 .portfolio-images {
   margin: 0 auto;
-  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -439,8 +438,39 @@ h4 {
   justify-content: center; }
   .portfolio-images img {
     display: block;
-    width: 15%;
     background-color: #32CA65; }
+
+li {
+  border-bottom: 2px transparent solid; }
+
+li:hover {
+  cursor: pointer;
+  border-bottom: 2px #32CA65 solid; }
+
+.grid {
+  /*MAIN GRID/WRAPPER STYLES*/
+  width: 100%; }
+
+.grid-item {
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.grid-item:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.25); }
+
+.grid-item img {
+  /*IMAGE SIZING*/
+  width: 100.4%;
+  height: auto; }
+
+.grid-sizer {
+  /*CREATE COLUMNS WITH GRID SIZER %*/
+  width: 25%; }
 
 .wrapper {
   width: 1170px;
