@@ -424,6 +424,7 @@ h4 {
   /*div around img*/
   width: 195px;
   height: 195px;
+  min-height: 195px;
   margin: 0;
   cursor: pointer;
   display: block;
